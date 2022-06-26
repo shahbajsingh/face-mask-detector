@@ -159,3 +159,22 @@ while True:
 
 cv2.destroyAllWindows()
 vs.stop()
+
+# TO-DO: GENERATED WARNINGS---->>
+#
+# [INFO] Loading Image Data. . .
+# /usr/local/lib/python3.9/site-packages/PIL/Image.py:945: UserWarning: Palette images with
+# Transparency expressed in bytes should be converted to RGBA images
+#	warnings.warn(
+# WARNING:tensorflow:'input_shape' is undefined or non-square, or 'rows' is not in 
+# [96, 128, 160, 192, 224]. Weights for input shape (224, 224) will be loaded as the default.
+# 2022-06-26 18:00:00.000000: I tensorflow/core/platform/cpu_feature_guard.cc:151]
+# This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (on eDNN) to use
+# the following CPU instructions in performance-critical operations:
+# AVX2 FMA
+# To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags
+# [INFO] Compiling Model. . . 
+# /usr/local/lib/python3.9/site-packages/keras/optimizer_v2/adam.py:105: UserWarning:
+# The 'lr' argument is deprecated, use 'learning_rate' instead.
+#	super(Adam, self).__init__(name, **kwargs)
+# [INFO] Training Head. . .
